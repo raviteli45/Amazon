@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
-import { TbBrandReact } from "react-icons/tb";
+import { FaAmazon } from "react-icons/fa";
+;
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <TbBrandReact className="navbar-logo" size={33} />
-      <p className='RA'>React App</p>
+      <FaAmazon className="navbar-logo" size={40} />
+      <p className='RA'>Amazon</p>
       <ul className="nav-links">
         <li>
           <Link to="/" className="link">

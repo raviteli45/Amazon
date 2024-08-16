@@ -6,6 +6,7 @@
     align-items: center;
     padding-left: 1%;
     font-weight: bolder;
+    position: sticky;
   }
   
   .nav-links {
@@ -31,22 +32,22 @@
   }
   .RA{
     color: #fff;
-    font-size: 18px;
-    margin-right: 74%;
+    font-size: 27px;
+    margin-right: 72%;
   }
   .RA:hover {
     color: #66d9ef;
   }
   .navbar-logo{
-    color: #66d9ef;
-    animation: spin 3s linear infinite;
+    color: #fff;
+   
+    
+
   }
   .navbar-logo:hover {
-    color: #fff;
+    color: #66d9ef;
+    
   }
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+  
   
