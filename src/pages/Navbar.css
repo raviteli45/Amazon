@@ -40,14 +40,50 @@
   }
   .navbar-logo{
     color: #fff;
-   
-    
 
   }
   .navbar-logo:hover {
     color: #66d9ef;
     
   }
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      align-items: flex-start;
+      overflow-y: hidden;
+    }
+    .nav-links {
+      font-size: small;
+      flex-direction: row;
+      padding: 0.5rem;
+      gap: 10px;
+      
+    }
+    .link {
+      margin-left: -20%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .RA {
+      margin-right: 0;
+      font-size: 20px;
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 0.5rem;
+    }
+    .link {
+      font-size: 16px;
+    }
+    .RA {
+      font-size: 18px;
+    }
+  }
+  
   
   
   
