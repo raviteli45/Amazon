@@ -23,10 +23,14 @@
 }
 .product-card:hover{
     transform: scale(1.05);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.8), 
+    0 0 50px rgba(255, 255, 255, 0.3);
+
+
 }
 
 .product-image {
-  border-radius: 8%;
+  border-radius: 12%;
   padding: 0.7rem;
   width: 100%;
   height: auto;
