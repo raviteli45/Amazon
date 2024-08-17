@@ -3,9 +3,11 @@
 import React from 'react';
 import products from './ProductData';
 import './Product.css';
-
+import CompLoad from './CompLoad';
 const ProductGrid = () => {
   return (
+    <>
+    <div><CompLoad /></div>
     <div className="product-grid">
       {products.map((product, index) => (
         <div key={index} className="product-card">
@@ -16,7 +18,7 @@ const ProductGrid = () => {
           </div>
         </div>
       ))}
-    </div>
+    </div></>
   );
 };
 
