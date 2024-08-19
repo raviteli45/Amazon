@@ -1,14 +1,19 @@
 import React from 'react';
 import './Projects.css';
-import { DiAndroid } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
+import CompLoad from './CompLoad';
 
 const Projects = () => {
+
+  const handleOnClick = () => {
+    window.open('https://github.com/raviteli45/Amazon');
+  }
   return (
-    <div className="projects-container">
-      <DiAndroid className='Android' size={130} />
+    <><CompLoad /><div className="projects-container">
+      <FaGithub className='Android' size={150} onClick={handleOnClick} />
       <h1>My projects</h1>
-      <p>This is the projects page.</p>
-    </div>
+      <p>Click on the icon to get the Source Code.</p>
+    </div></>
   );
 };
 
