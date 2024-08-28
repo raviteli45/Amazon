@@ -23,6 +23,12 @@
     margin-top: -10%;
     margin-bottom: 2%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
   }
-  
+
+  .Android:hover
+  {
+    transform: scale(1.1);
+    color : black;
+  }
   
