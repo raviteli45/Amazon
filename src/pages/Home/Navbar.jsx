@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
-import { FaAmazon } from "react-icons/fa";
-;
+import { FaHireAHelper } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <FaAmazon className="navbar-logo" size={40} />
-      <p className='RA'>Amazon</p>
+      <FaHireAHelper className="navbar-logo" size={40} />
+      <p className='RA'>NextHire</p>
       <ul className="nav-links">
         <li>
           <Link to="/" className="link">
@@ -21,8 +20,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/projects" className="link">
-            Projects
+          <Link to="/ContactUs" className="link">
+            Contact
           </Link>
         </li>
       </ul>

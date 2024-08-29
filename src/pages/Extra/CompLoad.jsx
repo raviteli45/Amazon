@@ -30,15 +30,16 @@ function CompLoad() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            
           }}
           >
-          <HashLoader color="white" size={50} />
+          <HashLoader color="white" size={50}  className='CompLoad'/>
         </div>
       )}
       <div
         style={{
           opacity: loading ? 0 : 1,
-          transition: 'opacity 1s cubic-bezier(0.4, 0, 0.2, 1) 0.5s',
+          transition: 'opacity 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s',
         }}
       >
         {data}
